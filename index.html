@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tierra de Encuentro | Terapias de Integración en la Naturaleza</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Fundación Tierra de Encuentro: Centro de terapias infantiles asistidas en la naturaleza. Especializados en equinoterapia, fonoaudiología, terapia ocupacional y talleres grupales.">
+    <meta name="keywords" content="equinoterapia, terapia ocupacional infantil, fonoaudiologia, talleres en la naturaleza, terapias alternativas ninos, responsabilidad social corporativa, donaciones fundacion">
+    <meta name="author" content="Tierra de Encuentro">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="fixed-top shadow-sm transition-all" id="mainHeader">
+        <nav class="navbar navbar-expand-lg navbar-light py-3" aria-label="Navegación principal">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#hero" id="brand-logo">
+                    <div class="brand-icon-wrapper me-2 d-flex align-items-center justify-content-center">
+                        <i class="bi bi-tree-fill fs-4 text-success"></i>
+                    </div>
+                    <span class="brand-text">Tierra de <span class="text-orange">Encuentro</span></span>
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#hero">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#filosofia">Filosofía</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#terapias">Terapias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#donaciones">Donaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rse">Alianzas RSE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonios">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex align-items-center gap-2">
+                        <a href="#donaciones" class="btn btn-orange btn-hover-effect rounded-pill px-4 shadow-sm" id="nav-cta-btn">
+                            <i class="bi bi-heart-fill me-1 small"></i> Apadrinar / Donar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="hero" class="d-flex align-items-center position-relative overflow-hidden min-vh-100 bg-organic-pattern">
+            <div class="gradient-overlay"></div>
+            <div class="container position-relative z-3 pt-5 mt-5">
+                <div class="row align-items-center min-vh-75">
+                    <div class="col-lg-6 hero-text-col text-center text-lg-start animate-fade-in-left">
+                        <span class="badge bg-success-subtle text-success fs-7 mb-3 px-3 py-2 rounded-pill fw-semibold border border-success-subtle">
+                            <i class="bi bi-brightness-high-fill me-1"></i> Terapias en la Naturaleza
+                        </span>
+                        <h1 class="display-3 fw-extrabold text-slate mb-3 leading-tight">
+                            Donde la <span class="text-gradient">Terapia</span> Abraza la Naturaleza
+                        </h1>
+                        <p class="lead text-muted mb-4 fs-5">
+                            Acompañamos el desarrollo integral y la neurodiversidad infantil a través de la equinoterapia, talleres al aire libre y terapias clínicas integradas al entorno vivo. Un puente de conexión, autonomía y felicidad.
+                        </p>
+                        <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start gap-3">
+                            <a href="#terapias" class="btn btn-success-custom btn-lg rounded-pill px-4 py-3 shadow-md" id="hero-primary-btn">
+                                Descubrir Terapias <i class="bi bi-arrow-right-short ms-1 fs-5 align-middle"></i>
+                            </a>
+                            <a href="#donaciones" class="btn btn-outline-orange btn-lg rounded-pill px-4 py-3" id="hero-secondary-btn">
+                                <i class="bi bi-heart-fill me-1 small text-orange"></i> Apadrina un Niño
+                            </a>
+                        </div>
+                        
+                        <!-- Mini trust markers -->
+                        <div class="d-flex flex-wrap justify-content-center justify-content-lg-start align-items-center gap-4 mt-5 pt-3 border-top border-light-subtle">
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-check-circle-fill text-success fs-5"></i>
+                                <span class="text-slate fw-semibold fs-7">Equipo Transdisciplinario</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-check-circle-fill text-success fs-5"></i>
+                                <span class="text-slate fw-semibold fs-7">Entornos 100% Orgánicos</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <i class="bi bi-check-circle-fill text-success fs-5"></i>
+                                <span class="text-slate fw-semibold fs-7">Enfoque de Impacto Social</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 hero-image-col mt-5 mt-lg-0 animate-fade-in-right">
+                        <div class="hero-image-wrapper position-relative mx-auto">
+                            <div class="shape-blob shape-blob-1"></div>
+                            <div class="shape-blob shape-blob-2"></div>
+                            <div class="hero-card-floating shadow-lg px-4 py-3 rounded-4 bg-white d-flex align-items-center gap-3 animate-float">
+                                <div class="icon-circle bg-orange text-white">
+                                    <i class="bi bi-people-fill"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold text-slate" id="float-counter-children">+150 Niños</h6>
+                                    <small class="text-muted">Acompañados este año</small>
+                                </div>
+                            </div>
+                            <img src="assets/images/hero_equinoterapia.png" alt="Niño sonriendo y acariciando a un caballo de equinoterapia en un prado soleado" class="img-fluid rounded-5 shadow-lg border border-3 border-white position-relative z-2 main-hero-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section id="stats" class="py-5 bg-white border-bottom border-light">
+            <div class="container">
+                <div class="row g-4 text-center">
+                    <div class="col-6 col-md-3">
+                        <div class="p-3">
+                            <div class="display-5 fw-bold text-success-custom mb-1 counter" data-target="150">0</div>
+                            <p class="text-muted fw-medium mb-0">Niños Becados y Atendidos</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="p-3">
+                            <div class="display-5 fw-bold text-success-custom mb-1 counter" data-target="3200">0</div>
+                            <p class="text-muted fw-medium mb-0">Terapias Impartidas</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="p-3">
+                            <div class="display-5 fw-bold text-success-custom mb-1 counter" data-target="8">0</div>
+                            <p class="text-muted fw-medium mb-0">Caballos Co-terapeutas</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="p-3">
+                            <div class="display-5 fw-bold text-success-custom mb-1 counter" data-target="15">0</div>
+                            <p class="text-muted fw-medium mb-0">Profesionales Médicos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Philosophy / Vision Section -->
+        <section id="filosofia" class="py-6 bg-light">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6 scroll-reveal">
+                        <span class="text-orange fw-bold text-uppercase tracking-wider fs-7">Nuestra Visión y Enfoque</span>
+                        <h2 class="display-5 fw-bold text-slate mt-2 mb-4 leading-snug">
+                            Vincular la Infancia con la Tierra para Sanar y Crecer
+                        </h2>
+                        <p class="text-muted mb-4">
+                            Tradicionalmente, las terapias de neurodesarrollo y rehabilitación se limitan a cuatro paredes. En la <strong>Fundación Tierra de Encuentro</strong>, rompemos esa barrera. Creemos que el contacto físico con los animales, la textura de la tierra, el olor de las plantas y los desafíos del espacio natural son estímulos insustituibles que activan el sistema nervioso del niño de manera amable y profunda.
+                        </p>
+                        
+                        <div class="accordion accordion-custom" id="philosophyAccordion">
+                            <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm bg-white overflow-hidden">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button fw-bold text-slate bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <i class="bi bi-flower1 text-success me-2"></i> Integración Sensorial y Naturaleza
+                                    </button>
+                                </h3>
+                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#philosophyAccordion">
+                                    <div class="accordion-body text-muted">
+                                        El entorno natural proporciona una cantidad rica y regulada de estímulos táctiles, auditivos y propioceptivos que ayudan a los niños con dificultades de procesamiento sensorial a integrarse mejor que en salas cerradas de terapia tradicionales.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm bg-white overflow-hidden">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold text-slate bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <i class="bi bi-shield-heart text-orange me-2"></i> Empatía, Cuidado y Vínculo Animal
+                                    </button>
+                                </h3>
+                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#philosophyAccordion">
+                                    <div class="accordion-body text-muted">
+                                        Interactuar con caballos y pequeños animales de granja enseña responsabilidad, calma el sistema nervioso autónomo mediante la coherencia cardíaca y fortalece el autoestima del niño a través del afecto incondicional de los animales.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm bg-white overflow-hidden">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold text-slate bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <i class="bi bi-globe-americas text-info me-2"></i> Responsabilidad Social y Sostenibilidad
+                                    </button>
+                                </h3>
+                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#philosophyAccordion">
+                                    <div class="accordion-body text-muted">
+                                        Formamos a niños comprometidos con el medio ambiente mientras impulsamos un modelo de becas donde la comunidad y las empresas financian tratamientos de familias vulnerables, logrando equidad social a través de la naturaleza.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 scroll-reveal">
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <div class="card border-0 rounded-4 shadow-sm bg-white p-4 h-100 hover-translate">
+                                    <div class="icon-box-round bg-success-subtle text-success mb-3">
+                                        <i class="bi bi-tree fs-3"></i>
+                                    </div>
+                                    <h4 class="h5 fw-bold text-slate">Bienestar Integral</h4>
+                                    <p class="text-muted small mb-0">Reducción del estrés y la ansiedad a través de entornos forestales y aire puro.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card border-0 rounded-4 shadow-sm bg-white p-4 h-100 hover-translate">
+                                    <div class="icon-box-round bg-orange-subtle text-orange mb-3">
+                                        <i class="bi bi-emoji-laughing fs-3"></i>
+                                    </div>
+                                    <h4 class="h5 fw-bold text-slate">Aprendizaje Basado en Juego</h4>
+                                    <p class="text-muted small mb-0">Terapias activas donde los niños logran sus objetivos clínicos jugando en libertad.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card border-0 rounded-4 shadow-sm bg-white p-4 h-100 hover-translate">
+                                    <div class="icon-box-round bg-cyan-subtle text-cyan mb-3">
+                                        <i class="bi bi-shield-check fs-3"></i>
+                                    </div>
+                                    <h4 class="h5 fw-bold text-slate">Evidencia Científica</h4>
+                                    <p class="text-muted small mb-0">Protocolos estandarizados y medidos por terapeutas médicos y psicólogos.</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card border-0 rounded-4 shadow-sm bg-white p-4 h-100 hover-translate">
+                                    <div class="icon-box-round bg-info-subtle text-info mb-3">
+                                        <i class="bi bi-hand-thumbs-up fs-3"></i>
+                                    </div>
+                                    <h4 class="h5 fw-bold text-slate">Inclusión Real</h4>
+                                    <p class="text-muted small mb-0">Más del 40% de nuestros programas son gratuitos gracias a donantes y patrocinadores.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Therapies Section -->
+        <section id="terapias" class="py-6 bg-white">
+            <div class="container">
+                <div class="text-center max-w-2xl mx-auto mb-5 scroll-reveal">
+                    <span class="text-success fw-bold text-uppercase tracking-wider fs-7">Nuestros Servicios de Terapia</span>
+                    <h2 class="display-5 fw-bold text-slate mt-2 mb-3">Áreas de Acompañamiento e Integración</h2>
+                    <p class="text-muted">Desarrollamos programas personalizados combinando la salud clínica con el entorno natural y las terapias asistidas.</p>
+                </div>
+                
+                <div class="row g-4 justify-content-center">
+                    
+                    <!-- Therapy Item 1: Equinoterapia -->
+                    <div class="col-md-6 col-lg-3 scroll-reveal">
+                        <article class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden card-therapy-glow">
+                            <div class="card-img-wrapper position-relative">
+                                <img src="assets/images/hero_equinoterapia.png" class="card-img-top object-fit-cover" alt="Niño acariciando caballo en terapia" style="height: 200px;">
+                                <span class="badge bg-success position-absolute top-3 start-3 px-3 py-2 rounded-pill fs-7 shadow-sm">Destacado</span>
+                            </div>
+                            <div class="card-body p-4 d-flex flex-column">
+                                <div class="d-flex align-items-center gap-2 mb-2 text-success">
+                                    <i class="bi bi-heartpulse-fill"></i>
+                                    <span class="fs-8 fw-bold text-uppercase tracking-wider">Físico-Emocional</span>
+                                </div>
+                                <h3 class="h4 fw-bold text-slate mb-2">Equinoterapia</h3>
+                                <p class="text-muted small flex-grow-1">
+                                    Aprovechamos el movimiento tridimensional, la temperatura y el ritmo del caballo para estimular el tono muscular, el equilibrio y la autorregulación emocional del niño.
+                                </p>
+                                <a href="#contacto" class="btn btn-outline-success btn-sm rounded-pill mt-3 w-100 py-2">Consultar</a>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <!-- Therapy Item 2: Talleres Grupales -->
+                    <div class="col-md-6 col-lg-3 scroll-reveal">
+                        <article class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden card-therapy-glow">
+                            <div class="card-img-wrapper position-relative">
+                                <img src="assets/images/talleres_grupales.png" class="card-img-top object-fit-cover" alt="Niños jugando en la naturaleza" style="height: 200px;">
+                            </div>
+                            <div class="card-body p-4 d-flex flex-column">
+                                <div class="d-flex align-items-center gap-2 mb-2 text-orange">
+                                    <i class="bi bi-people-fill"></i>
+                                    <span class="fs-8 fw-bold text-uppercase tracking-wider">Socialización</span>
+                                </div>
+                                <h3 class="h4 fw-bold text-slate mb-2">Talleres Grupales</h3>
+                                <p class="text-muted small flex-grow-1">
+                                    Encuentros lúdicos de exploración en el bosque, huerto terapéutico y arteterapia al aire libre. Desarrolla habilidades sociales, empatía y resolución de conflictos de forma natural.
+                                </p>
+                                <a href="#contacto" class="btn btn-outline-success btn-sm rounded-pill mt-3 w-100 py-2">Consultar</a>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <!-- Therapy Item 3: Fonoaudiología -->
+                    <div class="col-md-6 col-lg-3 scroll-reveal">
+                        <article class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden card-therapy-glow">
+                            <div class="card-img-wrapper position-relative">
+                                <img src="assets/images/fonoaudiologia.png" class="card-img-top object-fit-cover" alt="Terapeuta trabajando el habla con niño" style="height: 200px;">
+                            </div>
+                            <div class="card-body p-4 d-flex flex-column">
+                                <div class="d-flex align-items-center gap-2 mb-2 text-cyan">
+                                    <i class="bi bi-chat-quote-fill"></i>
+                                    <span class="fs-8 fw-bold text-uppercase tracking-wider">Comunicación</span>
+                                </div>
+                                <h3 class="h4 fw-bold text-slate mb-2">Fonoaudiología</h3>
+                                <p class="text-muted small flex-grow-1">
+                                    Intervención del habla, lenguaje y deglución utilizando los sonidos ambientales y dinámicas al aire libre como motivador principal para desbloquear la comunicación del niño.
+                                </p>
+                                <a href="#contacto" class="btn btn-outline-success btn-sm rounded-pill mt-3 w-100 py-2">Consultar</a>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <!-- Therapy Item 4: Terapia Ocupacional -->
+                    <div class="col-md-6 col-lg-3 scroll-reveal">
+                        <article class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden card-therapy-glow">
+                            <div class="card-img-wrapper position-relative">
+                                <img src="assets/images/terapia_ocupacional.png" class="card-img-top object-fit-cover" alt="Niño haciendo circuito de equilibrio" style="height: 200px;">
+                            </div>
+                            <div class="card-body p-4 d-flex flex-column">
+                                <div class="d-flex align-items-center gap-2 mb-2 text-info">
+                                    <i class="bi bi-puzzle-fill"></i>
+                                    <span class="fs-8 fw-bold text-uppercase tracking-wider">Autonomía</span>
+                                </div>
+                                <h3 class="h4 fw-bold text-slate mb-2">Terapia Ocupacional</h3>
+                                <p class="text-muted small flex-grow-1">
+                                    Favorece la coordinación psicomotora, el procesamiento sensorial y la independencia diaria a través de desafíos motores en circuitos naturales y actividades de la vida diaria en granja.
+                                </p>
+                                <a href="#contacto" class="btn btn-outline-success btn-sm rounded-pill mt-3 w-100 py-2">Consultar</a>
+                            </div>
+                        </article>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Donation / Impact Widget Section -->
+        <section id="donaciones" class="py-6 bg-earth-gradient text-white">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    
+                    <div class="col-lg-6 scroll-reveal">
+                        <span class="badge bg-white text-orange fs-7 mb-3 px-3 py-2 rounded-pill fw-bold border border-white-subtle">
+                            <i class="bi bi-heart-pulse-fill me-1"></i> Tu impacto es directo
+                        </span>
+                        <h2 class="display-5 fw-bold mb-4">Sé el Impulsor del Vuelo de un Niño</h2>
+                        <p class="lead opacity-90 mb-4">
+                            El 85% de las familias que requieren terapias especializadas en Chile no pueden costear un tratamiento continuo de calidad. Con tu donación o apadrinamiento, cubres las becas terapéuticas de niños de escasos recursos y el mantenimiento de nuestros caballos co-terapeutas.
+                        </p>
+                        
+                        <!-- Dynamic Impact Display Box -->
+                        <div class="glass-container p-4 rounded-4 shadow-lg border border-white-10 mb-4 animate-glow">
+                            <div class="d-flex align-items-center justify-content-between border-bottom border-white-10 pb-3 mb-3">
+                                <span class="fs-6 fw-semibold text-white-80">Con una Donación Mensual de:</span>
+                                <span class="display-6 fw-black text-orange" id="impact-amount">$25 USD</span>
+                            </div>
+                            <div class="d-flex align-items-start gap-3">
+                                <div class="icon-circle bg-orange text-white flex-shrink-0 mt-1">
+                                    <i class="bi bi-gift-fill"></i>
+                                </div>
+                                <div>
+                                    <h4 class="h5 fw-bold text-white mb-2" id="impact-title">Alimentación y Cuidado del Caballo</h4>
+                                    <p class="mb-0 text-white-80 small" id="impact-desc">
+                                        Financias el alimento balanceado, herraje y cuidado veterinario semanal de uno de nuestros 8 caballos co-terapeutas para que esté sano y listo para sus sesiones de terapia.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="d-flex -space-x-3">
+                                <span class="avatar bg-success text-white border border-2 border-orange rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 40px; height: 40px; font-size: 11px;">J</span>
+                                <span class="avatar bg-info text-white border border-2 border-orange rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 40px; height: 40px; font-size: 11px; margin-left: -10px;">M</span>
+                                <span class="avatar bg-warning text-white border border-2 border-orange rounded-circle d-inline-flex align-items-center justify-content-center" style="width: 40px; height: 40px; font-size: 11px; margin-left: -10px;">S</span>
+                            </div>
+                            <p class="mb-0 small text-white-80">Únete a los más de <strong>120 padrinos</strong> activos que ya están transformando vidas.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 scroll-reveal">
+                        <!-- Interactive Form for Donations -->
+                        <div class="card border-0 rounded-5 shadow-2xl bg-white text-slate p-5">
+                            <h3 class="h4 fw-bold text-slate mb-4 text-center">Configura tu Apadrinamiento</h3>
+                            
+                            <!-- Preset Buttons -->
+                            <div class="mb-4">
+                                <label class="form-label text-muted small fw-bold text-uppercase d-block mb-3 text-center">Selecciona un monto mensual</label>
+                                <div class="row g-2" role="group" aria-label="Monto de donación preestablecido">
+                                    <div class="col-3">
+                                        <button type="button" class="btn btn-outline-donation w-100 py-3 rounded-3 fw-bold active" data-value="10">$10</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button type="button" class="btn btn-outline-donation w-100 py-3 rounded-3 fw-bold" data-value="25">$25</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button type="button" class="btn btn-outline-donation w-100 py-3 rounded-3 fw-bold" data-value="50">$50</button>
+                                    </div>
+                                    <div class="col-3">
+                                        <button type="button" class="btn btn-outline-donation w-100 py-3 rounded-3 fw-bold" data-value="100">$100</button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Slider Range Selection -->
+                            <div class="mb-4">
+                                <div class="d-flex justify-content-between mb-2">
+                                    <label for="donationRange" class="form-label text-muted small fw-bold text-uppercase mb-0">O personaliza el control</label>
+                                    <span class="fw-bold text-success-custom" id="slider-val-display">$10 USD/mes</span>
+                                </div>
+                                <input type="range" class="form-range custom-slider" id="donationRange" min="5" max="200" step="5" value="10">
+                                <div class="d-flex justify-content-between text-muted fs-8 mt-1">
+                                    <span>$5 USD</span>
+                                    <span>$100 USD</span>
+                                    <span>$200 USD</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Donation Form Detail -->
+                            <form id="donationForm" novalidate>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating mb-3">
+                                            <input type="text" class="form-control rounded-3" id="donorName" placeholder="Tu Nombre" required>
+                                            <label for="donorName">Nombre Completo</label>
+                                            <div class="invalid-feedback">Ingresa tu nombre.</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating mb-3">
+                                            <input type="email" class="form-control rounded-3" id="donorEmail" placeholder="nombre@ejemplo.com" required>
+                                            <label for="donorEmail">Correo Electrónico</label>
+                                            <div class="invalid-feedback">Ingresa un correo electrónico válido.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input" type="checkbox" value="" id="donorTaxExempt">
+                                    <label class="form-check-input-label text-muted small" for="donorTaxExempt">
+                                        Requiero certificado de donación para deducción de impuestos (RSE / Personas).
+                                    </label>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-orange btn-lg w-100 rounded-pill py-3 shadow-md fw-bold">
+                                    Proceder a Apadrinar <i class="bi bi-credit-card-2-front ms-2"></i>
+                                </button>
+                                
+                                <div class="text-center mt-3">
+                                    <span class="text-muted small"><i class="bi bi-shield-fill-check text-success me-1"></i> Transacción segura y protegida</span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Responsibility (RSE) Section -->
+        <section id="rse" class="py-6 bg-light border-top border-bottom border-light-subtle">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    
+                    <div class="col-lg-6 order-lg-2 scroll-reveal">
+                        <span class="text-success fw-bold text-uppercase tracking-wider fs-7">Alianzas Corporativas</span>
+                        <h2 class="display-5 fw-bold text-slate mt-2 mb-4 leading-tight">Responsabilidad Social que Transforma Vidas</h2>
+                        <p class="text-muted mb-4">
+                            Invitamos a corporaciones y pymes a formar alianzas estratégicas con la <strong>Fundación Tierra de Encuentro</strong>. El apoyo corporativo no solo ayuda a sostener nuestra labor clínica y medioambiental, sino que conecta a las empresas con valores de empatía, inclusión, infancia y desarrollo sostenible.
+                        </p>
+                        
+                        <div class="row g-4">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-start gap-3">
+                                    <div class="icon-circle-sm bg-success text-white">
+                                        <i class="bi bi-patch-check"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold text-slate mb-1">Beneficios Tributarios</h5>
+                                        <p class="text-muted small mb-0">Certificados de donación acogidos a franquicias fiscales vigentes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-start gap-3">
+                                    <div class="icon-circle-sm bg-success text-white">
+                                        <i class="bi bi-people"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold text-slate mb-1">Voluntariado Corporativo</h5>
+                                        <p class="text-muted small mb-0">Jornadas de conexión en equipo cuidando la naturaleza y pintando espacios.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-start gap-3">
+                                    <div class="icon-circle-sm bg-success text-white">
+                                        <i class="bi bi-award"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold text-slate mb-1">Co-branding Positivo</h5>
+                                        <p class="text-muted small mb-0">Asocia tu marca al desarrollo de la infancia y al cuidado animal en medios.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-start gap-3">
+                                    <div class="icon-circle-sm bg-success text-white">
+                                        <i class="bi bi-arrow-repeat"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold text-slate mb-1">Informes de Impacto</h5>
+                                        <p class="text-muted small mb-0">Métricas transparentes sobre el progreso de los niños que patrocinan.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4 pt-3">
+                            <a href="#contacto" class="btn btn-success-custom rounded-pill px-4 py-2">
+                                <i class="bi bi-briefcase me-1"></i> Dossier de Alianzas Corporativas
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 order-lg-1 scroll-reveal">
+                        <!-- Image representation showing Corporate Volunteer or children in organic workshop -->
+                        <div class="position-relative">
+                            <div class="card border-0 rounded-5 shadow-lg overflow-hidden position-relative z-2">
+                                <img src="assets/images/talleres_grupales.png" alt="Niños riendo juntos en una actividad grupal en la naturaleza" class="img-fluid object-fit-cover" style="height: 450px;">
+                                <div class="card-img-overlay d-flex flex-column justify-content-end p-4 bg-gradient-dark">
+                                    <h4 class="text-white fw-bold mb-1">Impacto Social + Ecológico</h4>
+                                    <p class="text-white-80 small mb-0">Cada alianza ayuda a plantar árboles autóctonos y a otorgar becas de equinoterapia.</p>
+                                </div>
+                            </div>
+                            <!-- Background decoration -->
+                            <div class="decorative-grid position-absolute top-50 start-0 translate-middle-y ms-n4 z-1 d-none d-md-block"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonios" class="py-6 bg-white overflow-hidden">
+            <div class="container">
+                <div class="text-center max-w-2xl mx-auto mb-5 scroll-reveal">
+                    <span class="text-orange fw-bold text-uppercase tracking-wider fs-7">Historias de Esperanza</span>
+                    <h2 class="display-5 fw-bold text-slate mt-2 mb-3">La Voz de las Familias</h2>
+                    <p class="text-muted">El cambio de entorno transforma vidas. Conoce el testimonio de padres que viven este viaje con nosotros.</p>
+                </div>
+                
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 scroll-reveal">
+                        
+                        <!-- Bootstrap Carousel -->
+                        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active bg-success-custom" aria-current="true" aria-label="Testimonio 1"></button>
+                                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" class="bg-success-custom" aria-label="Testimonio 2"></button>
+                                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" class="bg-success-custom" aria-label="Testimonio 3"></button>
+                            </div>
+                            
+                            <div class="carousel-inner pb-5">
+                                
+                                <!-- Testimonial Item 1 -->
+                                <div class="carousel-item active">
+                                    <div class="card border-0 bg-light-subtle rounded-5 p-5 text-center shadow-sm max-w-4xl mx-auto">
+                                        <i class="bi bi-quote fs-1 text-orange-subtle mb-3"></i>
+                                        <p class="fs-5 text-slate mb-4 italic">
+                                            "El avance de Lucas en el espectro autista ha sido impresionante. Las sesiones de terapia ocupacional con caballos le permitieron integrarse sensorialmente. Lucas adora a 'Manolo', su caballo. El entorno libre hace que él no sienta que va a un doctor, sino a jugar al bosque."
+                                        </p>
+                                        <div class="d-flex align-items-center justify-content-center gap-3">
+                                            <div class="avatar bg-success text-white rounded-circle d-flex align-items-center justify-content-center fw-bold" style="width: 50px; height: 50px;">
+                                                M
+                                            </div>
+                                            <div class="text-start">
+                                                <h5 class="mb-0 fw-bold text-slate">Marcela Soto</h5>
+                                                <small class="text-muted">Mamá de Lucas (8 años) - Beca de Equinoterapia</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Testimonial Item 2 -->
+                                <div class="carousel-item">
+                                    <div class="card border-0 bg-light-subtle rounded-5 p-5 text-center shadow-sm max-w-4xl mx-auto">
+                                        <i class="bi bi-quote fs-1 text-orange-subtle mb-3"></i>
+                                        <p class="fs-5 text-slate mb-4 italic">
+                                            "Buscábamos fonoaudiología tradicional para Valentina pero se frustraba mucho en consultorios. Al empezar las dinámicas al aire libre en Tierra de Encuentro, la motivación de Vale cambió por completo. Ya formula oraciones completas y se siente segura de comunicarse."
+                                        </p>
+                                        <div class="d-flex align-items-center justify-content-center gap-3">
+                                            <div class="avatar bg-info text-white rounded-circle d-flex align-items-center justify-content-center fw-bold" style="width: 50px; height: 50px;">
+                                                F
+                                            </div>
+                                            <div class="text-start">
+                                                <h5 class="mb-0 fw-bold text-slate">Fernando Castro</h5>
+                                                <small class="text-muted">Papá de Valentina (6 años) - Fonoaudiología en la Naturaleza</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Testimonial Item 3 -->
+                                <div class="carousel-item">
+                                    <div class="card border-0 bg-light-subtle rounded-5 p-5 text-center shadow-sm max-w-4xl mx-auto">
+                                        <i class="bi bi-quote fs-1 text-orange-subtle mb-3"></i>
+                                        <p class="fs-5 text-slate mb-4 italic">
+                                            "Apadrinar a Martín a través de nuestro programa de RSE ha sido la experiencia de sostenibilidad humana más valiosa de nuestra empresa. El equipo recibe informes del progreso de Martín y organizamos un voluntariado para pintar la cerca de la fundación. Conexión total."
+                                        </p>
+                                        <div class="d-flex align-items-center justify-content-center gap-3">
+                                            <div class="avatar bg-warning text-white rounded-circle d-flex align-items-center justify-content-center fw-bold" style="width: 50px; height: 50px;">
+                                                G
+                                            </div>
+                                            <div class="text-start">
+                                                <h5 class="mb-0 fw-bold text-slate">Gabriela Ruiz</h5>
+                                                <small class="text-muted">Gerente de RSE, Inversiones Andes - Empresa Padrina</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            <!-- Custom Carousel Navigation -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon bg-success-custom rounded-circle p-3" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon bg-success-custom rounded-circle p-3" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="py-6 bg-light border-top border-light-subtle">
+            <div class="container">
+                <div class="text-center max-w-2xl mx-auto mb-5 scroll-reveal">
+                    <span class="text-success fw-bold text-uppercase tracking-wider fs-7">¿Tienes dudas?</span>
+                    <h2 class="display-5 fw-bold text-slate mt-2 mb-3">Preguntas Frecuentes</h2>
+                    <p class="text-muted">Aquí respondemos las preguntas más comunes sobre nuestras terapias, voluntariados y donaciones.</p>
+                </div>
+                
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 scroll-reveal">
+                        <div class="accordion accordion-flush bg-white rounded-4 shadow-sm p-3" id="faqAccordion">
+                            
+                            <div class="accordion-item border-bottom py-2">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-semibold text-slate" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1">
+                                        ¿A qué edades están orientadas las terapias?
+                                    </button>
+                                </h3>
+                                <div id="faq-1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body text-muted small">
+                                        Atendemos a niños y adolescentes entre los 2 y 16 años, personalizando las dinámicas según su etapa de desarrollo y necesidades físicas, conductuales o comunicativas particulares.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item border-bottom py-2">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-semibold text-slate" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2">
+                                        ¿Cómo se garantiza la seguridad física en equinoterapia?
+                                    </button>
+                                </h3>
+                                <div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body text-muted small">
+                                        La seguridad es nuestra prioridad. Cada sesión de equinoterapia cuenta con 3 profesionales capacitados: el terapeuta clínico liderando, el guía del caballo conduciendo al animal de terapia, y un asistente lateral de seguridad. Además, nuestros caballos tienen entrenamiento específico de desensibilización.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item border-bottom py-2">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-semibold text-slate" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3">
+                                        ¿Cómo se asignan las becas de financiamiento social?
+                                    </button>
+                                </h3>
+                                <div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body text-muted small">
+                                        Trabajamos en conjunto con asistentes sociales. Las familias postulan presentando su informe clínico e información socioeconómica. Las becas (parciales o del 100%) se cubren a medida que ingresan donaciones y aportes de empresas aliadas al fondo común.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item py-2">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-semibold text-slate" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4">
+                                        ¿Las donaciones son deducibles de impuestos?
+                                    </button>
+                                </h3>
+                                <div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body text-muted small">
+                                        Sí, la fundación está legalmente constituida. Entregamos certificados de donación válidos ante el Servicio de Impuestos Internos (o legislación local equivalente) acogidos a las leyes de donaciones sociales corporativas o individuales.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacto" class="py-6 bg-white position-relative">
+            <div class="container">
+                <div class="row g-5">
+                    
+                    <div class="col-lg-5 scroll-reveal">
+                        <span class="text-orange fw-bold text-uppercase tracking-wider fs-7">Contáctanos</span>
+                        <h2 class="display-5 fw-bold text-slate mt-2 mb-4">Estamos aquí para escucharte</h2>
+                        <p class="text-muted mb-4">
+                            Si eres un padre buscando terapias, un profesional que quiere colaborar, un voluntario apasionado o una empresa interesada en RSE, escríbenos y te responderemos a la brevedad.
+                        </p>
+                        
+                        <div class="d-flex flex-column gap-4">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="icon-circle-sm bg-success text-white">
+                                    <i class="bi bi-geo-alt"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold text-slate">Dirección Física</h6>
+                                    <p class="mb-0 text-muted small">Camino Al Volcán Km 12.5, Cajón del Maipo, Chile</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="icon-circle-sm bg-success text-white">
+                                    <i class="bi bi-telephone"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold text-slate">Teléfono / WhatsApp</h6>
+                                    <p class="mb-0 text-muted small">+56 9 8765 4321</p>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="icon-circle-sm bg-success text-white">
+                                    <i class="bi bi-envelope"></i>
+                                </div>
+                                <div>
+                                    <h6 class="mb-0 fw-bold text-slate">Correo Electrónico</h6>
+                                    <p class="mb-0 text-muted small">contacto@tierradeencuentro.org</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Map Simulation or decorative elements -->
+                        <div class="mt-5 rounded-4 overflow-hidden border border-light shadow-sm" style="height: 180px;">
+                            <div class="bg-success-subtle h-100 w-100 d-flex flex-column align-items-center justify-content-center text-center p-3">
+                                <i class="bi bi-pin-map-fill fs-2 text-success mb-2 animate-bounce"></i>
+                                <h6 class="mb-1 fw-bold text-slate">Ver Mapa del Centro Terapéutico</h6>
+                                <p class="mb-0 small text-muted">Ubicado en un valle protegido rodeado de bosque nativo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-7 scroll-reveal">
+                        <div class="card border-0 rounded-4 shadow-sm bg-light p-4 p-md-5">
+                            <h3 class="h4 fw-bold text-slate mb-4">Envíanos un Mensaje</h3>
+                            
+                            <form id="contactForm" novalidate>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating mb-3">
+                                            <input type="text" class="form-control rounded-3 border-0 bg-white" id="contactName" placeholder="Tu Nombre" required minlength="3">
+                                            <label for="contactName">Nombre Completo</label>
+                                            <div class="invalid-feedback">El nombre debe tener al menos 3 caracteres.</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating mb-3">
+                                            <input type="email" class="form-control rounded-3 border-0 bg-white" id="contactEmail" placeholder="nombre@ejemplo.com" required>
+                                            <label for="contactEmail">Correo Electrónico</label>
+                                            <div class="invalid-feedback">Por favor, proporciona un correo válido.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-floating mb-3">
+                                    <select class="form-select rounded-3 border-0 bg-white" id="contactSubject" aria-label="Asunto de la consulta" required>
+                                        <option value="" disabled selected>Selecciona una opción</option>
+                                        <option value="terapias">Consulta sobre Terapias de mi hijo(a)</option>
+                                        <option value="apadrinar">Quiero ser Padrino / Donante</option>
+                                        <option value="alianza">Alianza Corporativa RSE</option>
+                                        <option value="voluntario">Postular como Voluntario</option>
+                                        <option value="otro">Otro Asunto</option>
+                                    </select>
+                                    <label for="contactSubject">Motivo de Contacto</label>
+                                    <div class="invalid-feedback">Por favor, selecciona un motivo de consulta.</div>
+                                </div>
+                                
+                                <div class="form-floating mb-3">
+                                    <textarea class="form-control rounded-3 border-0 bg-white" placeholder="Escribe tu mensaje aquí" id="contactMessage" style="height: 150px" required minlength="10"></textarea>
+                                    <label for="contactMessage">Tu Mensaje o Consulta</label>
+                                    <div class="invalid-feedback">El mensaje debe tener al menos 10 caracteres.</div>
+                                </div>
+                                
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input" type="checkbox" value="" id="contactPrivacy" required>
+                                    <label class="form-check-label text-muted small" for="contactPrivacy">
+                                        Acepto la política de tratamiento de datos y privacidad para recibir respuesta.
+                                    </label>
+                                    <div class="invalid-feedback">Debes aceptar los términos para continuar.</div>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-success-custom btn-lg w-100 rounded-pill py-3 shadow-md fw-bold">
+                                    Enviar Mensaje <i class="bi bi-send-fill ms-2"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-6 pb-4">
+        <div class="container">
+            <div class="row g-4 mb-5">
+                
+                <!-- Footer About -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-tree-fill text-success fs-3 me-2"></i>
+                        <span class="fs-4 fw-bold text-white font-title">Tierra de <span class="text-orange">Encuentro</span></span>
+                    </div>
+                    <p class="text-white-50 small mb-4">
+                        Fundación sin fines de lucro dedicada a democratizar el acceso a terapias infantiles asistidas en la naturaleza. Creemos en un desarrollo integrador que respeta la neurodiversidad infantil y protege el medio ambiente.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="social-icon-btn" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-icon-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="social-icon-btn" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="social-icon-btn" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Quick links -->
+                <div class="col-lg-2 col-md-6 col-6">
+                    <h5 class="fw-bold mb-3 text-white border-bottom border-secondary pb-2">Navegación</h5>
+                    <ul class="list-unstyled small d-flex flex-column gap-2">
+                        <li><a href="#hero" class="text-white-50 text-decoration-none hover-white">Inicio</a></li>
+                        <li><a href="#filosofia" class="text-white-50 text-decoration-none hover-white">Filosofía</a></li>
+                        <li><a href="#terapias" class="text-white-50 text-decoration-none hover-white">Nuestras Terapias</a></li>
+                        <li><a href="#donaciones" class="text-white-50 text-decoration-none hover-white">Cómo Donar</a></li>
+                        <li><a href="#rse" class="text-white-50 text-decoration-none hover-white">Alianzas RSE</a></li>
+                        <li><a href="#contacto" class="text-white-50 text-decoration-none hover-white">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Specialties -->
+                <div class="col-lg-3 col-md-6 col-6">
+                    <h5 class="fw-bold mb-3 text-white border-bottom border-secondary pb-2">Terapias</h5>
+                    <ul class="list-unstyled small d-flex flex-column gap-2">
+                        <li><a href="#terapias" class="text-white-50 text-decoration-none hover-white">Equinoterapia</a></li>
+                        <li><a href="#terapias" class="text-white-50 text-decoration-none hover-white">Talleres en la Naturaleza</a></li>
+                        <li><a href="#terapias" class="text-white-50 text-decoration-none hover-white">Fonoaudiología Clínica</a></li>
+                        <li><a href="#terapias" class="text-white-50 text-decoration-none hover-white">Terapia Ocupacional Sensorial</a></li>
+                        <li><a href="#terapias" class="text-white-50 text-decoration-none hover-white">Programa de Becas Sociales</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Newsletter -->
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3 text-white border-bottom border-secondary pb-2">Sembrando Esperanza</h5>
+                    <p class="text-white-50 small mb-3">Suscríbete a nuestro boletín mensual de noticias, voluntariados y reportes de impacto social.</p>
+                    
+                    <form id="newsletterForm" class="d-flex flex-column gap-2" novalidate>
+                        <div class="input-group">
+                            <input type="email" class="form-control rounded-start-pill border-0 text-dark bg-white" placeholder="Tu correo electrónico" aria-label="Tu correo electrónico" required id="newsletterEmail">
+                            <button class="btn btn-success-custom rounded-end-pill px-3" type="submit" aria-label="Suscribirse">
+                                <i class="bi bi-send-fill"></i>
+                            </button>
+                        </div>
+                        <div class="invalid-feedback text-danger small" id="newsletterFeedback">Ingresa un correo electrónico válido.</div>
+                    </form>
+                </div>
+                
+            </div>
+            
+            <div class="border-top border-secondary pt-4 text-center">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-md-start mb-3 mb-md-0">
+                        <p class="text-white-50 small mb-0">&copy; 2026 Fundación Tierra de Encuentro. Todos los derechos reservados.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <div class="d-flex gap-3 justify-content-center justify-content-md-end small">
+                            <a href="#" class="text-white-50 text-decoration-none hover-white">Políticas de Privacidad</a>
+                            <span class="text-secondary">|</span>
+                            <a href="#" class="text-white-50 text-decoration-none hover-white">Términos de Uso</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Form Submission Modals -->
+    <!-- Donation Success Modal -->
+    <div class="modal fade" id="donationSuccessModal" tabindex="-1" aria-labelledby="donationSuccessModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-5 border-0 shadow-lg text-slate">
+                <div class="modal-header border-0 pb-0 justify-content-end">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center px-4 pb-5">
+                    <div class="success-icon-wrapper bg-orange-subtle text-orange mx-auto mb-4 animate-bounce d-flex align-items-center justify-content-center">
+                        <i class="bi bi-heart-fill fs-1"></i>
+                    </div>
+                    <h3 class="fw-bold text-slate mb-2" id="donationSuccessModalLabel">¡Gracias por tu Corazón!</h3>
+                    <p class="text-muted mb-4">
+                        Tu compromiso para apadrinar con <strong id="modal-donation-value">$10 USD</strong> mensuales ha sido procesado de forma simulada. Hemos enviado los detalles de facturación y del niño beneficiario asignado a <strong id="modal-donor-email">correo@ejemplo.com</strong>.
+                    </p>
+                    <button type="button" class="btn btn-success-custom w-100 rounded-pill py-3 fw-bold" data-bs-dismiss="modal">Comenzar este viaje</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Success Modal -->
+    <div class="modal fade" id="contactSuccessModal" tabindex="-1" aria-labelledby="contactSuccessModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-5 border-0 shadow-lg text-slate">
+                <div class="modal-header border-0 pb-0 justify-content-end">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center px-4 pb-5">
+                    <div class="success-icon-wrapper bg-success-subtle text-success mx-auto mb-4 animate-bounce d-flex align-items-center justify-content-center">
+                        <i class="bi bi-send-check-fill fs-1"></i>
+                    </div>
+                    <h3 class="fw-bold text-slate mb-2" id="contactSuccessModalLabel">¡Mensaje Enviado!</h3>
+                    <p class="text-muted mb-4">
+                        Hola <strong id="modal-contact-name">Nombre</strong>, gracias por ponerte en contacto. Nuestro equipo transdisciplinario revisará tu consulta sobre <strong id="modal-contact-subject">Asunto</strong> y te responderá en menos de 24 horas hábiles.
+                    </p>
+                    <button type="button" class="btn btn-success-custom w-100 rounded-pill py-3 fw-bold" data-bs-dismiss="modal">Entendido</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- Custom Vanilla JS -->
+    <script src="app.js"></script>
+</body>
+</html>
